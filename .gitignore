@@ -61,3 +61,7 @@ target/
 #Ipython Notebook
 .ipynb_checkpoints
 githubio activate.txt
+
+#Customized
+_site/
+Gemfile.lock
