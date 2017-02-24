@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](another-page).
+[2017-01-08 Deep Learning](2017-01-08-machine-learning.html).
 
 There should be whitespace between paragraphs.
 
