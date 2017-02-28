@@ -3,7 +3,7 @@ title: "An Amazing Journey"
 author: "Jun"
 description: "This is a blog about my journey of Deep Learning, Big Data and Artificial Intelligence."
 keywords: "Big Data, Mathematics, Python, Machine-Learning, Artificial Intelligence, Statistics, Probability, Deep Learning"
-biography: "I am a free-lancer who worked with <a href='http://www.ibm.com'>IBM</a>, <a href='http://www.deloitte.com'>Deloitte Consulting</a> and <a href='http://www.teradata.com'>Teradata</a>. Now I'm focusing on Deep Learning application within financial service domain."
+biography: "I am a specialist who worked with <a href='http://www.ibm.com'>IBM</a>, <a href='http://www.deloitte.com'>Deloitte Consulting</a> and <a href='http://www.teradata.com'>Teradata</a>. Now I'm focusing on Deep Learning application within financial service domain."
 colophon: "This site is hosted at <a href='https://pages.github.com/'>Github Pages</a> and created with <a href='http://jekyllrb.com/'>Jekyll</a>."
 
 baseurl: ""
