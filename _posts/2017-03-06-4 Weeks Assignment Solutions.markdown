@@ -7,21 +7,21 @@ external-url:
 categories: Assignment-Solution
 ---
 
-** Week 1: Introduction**
-## No Assignment
+> ## Week 1: Introduction
+**No Assignment**
 
-** Week 2: Linear Regression**
-## Warm Up Exercise
+## Week 2: Linear Regression
+**Warm Up Exercise**
 ```matlab
 A = eye(5);
 ```
 
-## Compute Cost For One Variable
+**Compute Cost For One Variable**
 ```matlab
 J=sum((X*theta-y).^2)/(2*m);
 ```
 
-## Gradient Descent For One Variable
+**Gradient Descent For One Variable**
 ```matlab
 for iter = 1:num_iters
 	theta = theta - alpha / m * ((X * theta - y)'* X)';
@@ -29,19 +29,19 @@ for iter = 1:num_iters
 end
 ```
 
-## Feature Normalization
+**Feature Normalization**
 ```matlab
 mu=mean(X);
 sigma=std(X);
 X_norm=(X-mu)./sigma;
 ```
 
-## Compute Cost For Multiple Variable
+**Compute Cost For Multiple Variable**
 ```matlab
 J=((X*theta-y)'*(X*theta-y))/(2*m);
 ```
 
-## Gradient Descent For Multiple Variable
+**Gradient Descent For Multiple Variable**
 ```matlab
 for iter = 1:num_iters
 	theta=theta-(alpha/m)*(X'*((X*theta)-y));
@@ -49,7 +49,8 @@ for iter = 1:num_iters
 end
 ```
 
-## Normal Equations
+**Normal Equations**
 ```matlab
 theta=pinv(X'*X)*X'*y;
 ```
+## Week 3: Logistic Regression
