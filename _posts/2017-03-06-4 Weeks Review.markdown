@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Review After 1 week learning
+title: Review After 1 Week Learning
 date: 2017-03-06
 comments: true
 external-url:
