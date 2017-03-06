@@ -1,13 +1,13 @@
 ---
 layout: post
-title: review after 4 weeks learning
+title: Review After 1 week learning
 date: 2017-03-06
 comments: true
 external-url:
 categories: Deep-Learning
 ---
 
-> Completed 4 weeks learning of Andrew Ng's Machine Learing course on Coursera within 1 week. Here're some lesson learnt.
+> Completed 4 weeks' learning content of Andrew Ng's Machine Learing course on Coursera within 1 week. Here're some lesson learnt.
 
 At the first beginning, all things went to Caculus, Linear Algebra, Probality, which learnt many years ago. And so many terms there like CNN, RNN, MLP, RBM, back propagation. After going through Machine **Learning Recipes** from google and **Deep Learning Simplified** from TODSI, there're so many questions in my mind. I think Andrew Ng's course is a very handy tool that connect my previous experience with new concept, which introduces some hands-on assignments to make it more understandable.
 
