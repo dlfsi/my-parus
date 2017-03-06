@@ -7,7 +7,7 @@ external-url:
 categories: Assignment-Solution
 ---
 
-> ## Week 1: Introduction
+## Week 1: Introduction
 **No Assignment**
 
 ## Week 2: Linear Regression
@@ -54,3 +54,43 @@ end
 theta=pinv(X'*X)*X'*y;
 ```
 ## Week 3: Logistic Regression
+**Sigmoid Function**
+```matlab
+g=1.0./(1.0+exp(-z));
+```
+
+**Compute Cost for Logistic Regression**
+```matlab
+J=1/m*sum((-y)'*log(sigmoid(X*theta))-(1-y)'*log(1-sigmoid(X*theta)));
+```
+
+**Gradient Descent for Logistic Regression**
+```matlab
+theta=((sigmoid(X*theta)-y)'*X)/m;
+```
+
+**Predict Function**
+```matlab
+p(find(sigmoid(X*theta)>=0.5))=1;
+```
+
+**Compute Cost for Regularized LR**
+```matlab
+idx=length(theta);
+J=sum((-y)'*log(sigmoid(X*theta))-(1-y)'*log(1-sigmoid(X*theta)))/m+...
+    sum(theta(2:idx).^2)*lambda/(2*m);
+```
+
+**Gradient Descent for Regularized LR**
+```matlab
+idx=length(theta);
+theta(1)=(X'(1,:)*(sigmoid(X*theta)-y))/m;
+theta(2:idx)=(X'(2:idx,:)*(sigmoid(X*theta)-y))/m+(lambda/m)*theta(2:idx);
+```
+
+## Week 4: Neural Network
+**Sigmoid Function**
+```matlab
+g=1.0./(1.0+exp(-z));
+```
+
