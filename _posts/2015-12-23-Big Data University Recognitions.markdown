@@ -9,8 +9,8 @@ categories: Certification
 
 > Big Data University
 ## Big Data Analytics
-![](./assets/big-data-analytics-level-2.PNG)
+![Big Data Analytics Level 2](../assets/big-data-analytics-level-2.PNG)
 
 ## Data Science for Foundation
-![](./assets/data-science-foundations-level-2.PNG)
+![Data Science for Foundation Level 2](https://raw.githubusercontent.com/myin75.github.io/master/assets/data-science-foundations-level-2.PNG)
 
