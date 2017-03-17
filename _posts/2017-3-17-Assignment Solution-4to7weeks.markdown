@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First 4 Weeks Assignment Solutions
+title: Assignment Solutions for Week 5 to 7
 date: 2017-03-17
 comments: true
 external-url:
@@ -13,7 +13,6 @@ categories: Assignment-Solution
 ```matlab
 X=[ones(size(X,1),1) X];
 
-% turn vector y into matrices
 yVec=[zeros(size(y,1),num_labels)];
 for i=1:m
   yVec(i,y(i))=1;
@@ -26,21 +25,15 @@ a2=[ones(size(a1,1),1) a2]; %add first one node for layer2
 z3=a2*Theta2';
 hy=a3=sigmoid(z3);
 
-% unregularizaed cost function
 J=sum(sum((-yVec).*log(hy)-(1-yVec).*log(1-hy)))/m;
-
-% regularization cost function
 J=J+(lambda/(2*m))*(sum(sum(Theta1(:,2:end).^2))+sum(sum(Theta2(:,2:end).^2)));
 
-
-% back propagation
 delta3=hy-yVec;
 Theta2_grad=(Theta2_grad+delta3'*a2)/m;
   
 delta2=(delta3*Theta2)(:,2:end).*sigmoidGradient(z2);  
-Theta1_grad=(Theta1_grad+delta2'*X)/m; %a1 400 columns, X 401 columns
+Theta1_grad=(Theta1_grad+delta2'*X)/m;
 
-% back propagation with regularization
 Theta1_grad=Theta1_grad+(lambda/m)*[zeros(size(Theta1,1),1) Theta1(:,2:end)];
 Theta2_grad=Theta2_grad+(lambda*[zeros(size(Theta2,1),1) Theta2(:,2:end)])/m;
 ```
