@@ -22,7 +22,7 @@ end
 a1=X;
 z2=X*Theta1';
 a2=sigmoid(z2);
-a2=[ones(size(a1,1),1) a2]; %add first one node for layer2
+a2=[ones(size(a1,1),1) a2];
 z3=a2*Theta2';
 hy=a3=sigmoid(z3);
 
