@@ -10,7 +10,8 @@ categories: Assignment-Solution
 > Week 5 to 7 Assignment Solutions
 ## Week 5: Neural Network Learning
 **Feedforward and cost function**
-```matlab
+
+```python
 X=[ones(size(X,1),1) X];
 
 yVec=[zeros(size(y,1),num_labels)];
