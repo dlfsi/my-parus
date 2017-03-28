@@ -8,7 +8,9 @@ categories: Assignment-Solution
 ---
 
 > Week 8 to 9 Assignment Solutions
+
 Completed all 11 weeks ML course on Coursera last week. It's a fundermental class which focus on essential concepts of traditional ML, mostly like data mining technologies. Only touch a little bit of deep learning. Very good for ML introductory.
+
 ## Week 8: K-Means Clustering and PCA
 **Find Closest Centroids**
 
@@ -69,13 +71,13 @@ sigma2=sum((X-mu).^2)/m
 
 **Select Threshhold**
 ```matlab
-    pred=(pval<epsilon);
-    tp=sum((pred==1)&(yval==1));
-    fp=sum((pred==1)&(yval==0));
-    fn=sum((pred==1)&(yval==0));
-    precision=tp/(tp+fp);
-    recall=tp/(tp+fn);
-    F1=2*precision*recall/(precision+recall)
+pred=(pval<epsilon);
+tp=sum((pred==1)&(yval==1));
+fp=sum((pred==1)&(yval==0));
+fn=sum((pred==1)&(yval==0));
+precision=tp/(tp+fp);
+recall=tp/(tp+fn);
+F1=2*precision*recall/(precision+recall)
 ```
 
 **Collaborative Filtering Cost/Gradient with Regularization**
