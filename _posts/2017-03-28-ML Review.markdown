@@ -11,7 +11,10 @@ categories: Deep-Learning
 
 Andrew Ng's ML course on Coursera is an entry level course for machine learning, which give me a good understanding of supervised learning like linear regression, logistic regression and SVM, as well as unsupervised learning such as K-Means, Abnormaly detection. But all these concept are mostly like the traditional data mining skills and method. If someone like me wanna to dive into more deep area, there're still lots of things to learn.
 
-##The next learning path
+## Machine Learning Course Final Score
+![Score](https://raw.githubusercontent.com/myin75/myin75.github.io/master/assets/ML-Course-Final-Score.png)
+
+## The next learning path
 1. Complete CS229 course of Stanford, this is a totaly different course by Andrew Ng for Machine Learning.
 2. Complete Neural Network for ML course by Geoffrey Hinton. This is a little bit harder course because of more mathmaticial knowledges.
 3. Complete CS231n course of Stanford, this is a visual recognition course using convolutional neural network, which is a very hot deep learning net.
@@ -19,7 +22,7 @@ Andrew Ng's ML course on Coursera is an entry level course for machine learning,
 5. Complete CS294 Deep Reinforcement Learning Course of UCB.
 6. Complte Deep Learning course of Udacity, in this course using tensorflow as it ML development framework.
 
-##Learning object
+## Learning object
 1. Familiar with at least one ML development framework like tensorflow, keras, theano.
 2. Be good at one Deep Net such as Convolutional Neural Network, Recurrent Neural Network.
 3. Complete a project focusing on Algorithm Trading or credit policy management using deep learning technology.
