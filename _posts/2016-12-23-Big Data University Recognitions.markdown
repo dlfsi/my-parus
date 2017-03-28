@@ -17,9 +17,9 @@ categories: Certification
 ![Big Data Foundations Level1](https://raw.githubusercontent.com/myin75/myin75.github.io/master/assets/big-data-foundations-level-1.png)
 
 ## Data Science
-![Data Dcience for Dusiness Level1](https://raw.githubusercontent.com/myin75/myin75.github.io/master/assets/data-science-for-business-level-1.png)
 ![Data Science for Foundation Level2](https://raw.githubusercontent.com/myin75/myin75.github.io/master/assets/data-science-foundations-level-2.png)
 ![Data Science for Foundation Level1](https://raw.githubusercontent.com/myin75/myin75.github.io/master/assets/data-science-foundations-level-1.png)
+![Data Dcience for Dusiness Level1](https://raw.githubusercontent.com/myin75/myin75.github.io/master/assets/data-science-for-business-level-1.png)
 
 ## Watson Analytics
 ![Watson Analytics Level1](https://raw.githubusercontent.com/myin75/myin75.github.io/master/assets/watson-analytics-level-1.png)
